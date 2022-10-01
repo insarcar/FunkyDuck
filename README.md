@@ -1,2 +1,2 @@
 # FunkyDuck
- Auto Attack-Release Compressor for Guitar
+ Auto Attack-Release Compressor for Guitar - Thesis work
