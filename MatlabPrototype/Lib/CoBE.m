@@ -1,5 +1,7 @@
 function [ E, B, EBF ] = CoBE(X, res, sr, type)
-    
+%% outputs a scaled and filtered brightness descriptor, equivalent brigthness pitch, and the reveal envelope
+%% the core CoBE algorythm was developed by G.Presti, D.Mauro, G.Haus at Laboratorio di Informatica Musicale in University of Milan
+
     if(type == 0)
         Follower = @RMSFollower;
         scale = 10;
